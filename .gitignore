@@ -6,3 +6,4 @@ work/
 .DS_Store
 ._*
 Miniforge3-MacOSX-arm64.sh
+*.bak

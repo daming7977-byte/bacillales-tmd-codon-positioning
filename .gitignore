@@ -1,0 +1,8 @@
+data/
+work/
+*.zip
+*.faa
+*.ckpt
+.DS_Store
+._*
+Miniforge3-MacOSX-arm64.sh

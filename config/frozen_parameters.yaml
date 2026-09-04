@@ -1,0 +1,53 @@
+project: bacillales_tmd_codon_replication
+purpose: independent_lineage_replication
+
+reference_analysis:
+  lineage: Enterobacterales
+  manuscript: MBE_submission_manuscript_v1.1
+
+panel:
+  target_species: 10
+  minimum_species_per_orthogroup: 8
+
+orthology:
+  method: MMseqs2 reciprocal best hit
+  minimum_identity: 0.30
+  minimum_query_coverage: 0.70
+  minimum_target_coverage: 0.70
+  strict_one_to_one: true
+
+membrane_proteins:
+  minimum_homologous_tmds: 3
+  exclude_beta_barrels: true
+  require_consistent_tmd_order: true
+
+codon_adaptation:
+  species_specific: true
+  low_adaptation_threshold: bottom_decile
+  retain_threshold_ties: true
+  minimum_segment_length_codons: 3
+
+primary_anchors:
+  - tmd_start
+  - tmd_end
+
+primary_null:
+  type: within_protein_synonymous_codon_permutation
+  permutations: 1000
+
+decision_rules:
+  orthogroups_ge_8_species:
+    strong_go: 1500
+    go: 1000
+    borderline: 700
+
+  topology_qualified_families:
+    preferred: 150
+    minimum_go: 120
+
+  qualifying_tmd_units:
+    preferred: 50
+    minimum_go: 40
+
+analysis_principle:
+  parameters_must_not_be_changed_based_on_replication_results: true

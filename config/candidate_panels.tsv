@@ -1,0 +1,19 @@
+panel	species	strain	assembly_accession	role	status
+
+A	Bacillus subtilis	subsp. subtilis str. 168	GCF_000009045.1	core	confirmed
+A	Priestia megaterium	DSM 319	GCA_000025805.1	core	confirmed
+A	Paenibacillus polymyxa	E681	GCA_000146875.2	outer	confirmed
+B	Bacillus subtilis	subsp. subtilis str. 168	GCF_000009045.1	core	confirmed
+B	Priestia megaterium	DSM 319	GCA_000025805.1	core	confirmed
+B	Paenibacillus polymyxa	E681	GCA_000146875.2	outer	confirmed
+B	Listeria monocytogenes	EGD-e	GCF_000196035.1	outer	confirmed
+B	Staphylococcus aureus	NCTC 8325	GCF_000013425.1	outer	confirmed
+A	Bacillus licheniformis	DSM 13 / ATCC 14580	TBD	core	candidate
+A	Oceanobacillus iheyensis	HTE831	GCF_000011245.1	outer	confirmed
+B	Oceanobacillus iheyensis	HTE831	GCF_000011245.1	outer	confirmed
+A	Bacillus velezensis	FZB42	GCA_000015785.2	core	confirmed
+B	Bacillus velezensis	FZB42	GCA_000015785.2	core	confirmed
+B	Listeria innocua	Clip11262	TBD	outer	confirmed
+A	Bacillus cereus	ATCC 14579	TBD	core	candidate
+B	Bacillus cereus	ATCC 14579	TBD	core	candidate
+B	Staphylococcus epidermidis	ATCC 12228	GCF_000007645.1	outer	confirmed

@@ -1,0 +1,4 @@
+anchor	observed_units	observed_median_variance	null_units_median	null_median_variance	null_le_observed	permutations	empirical_p
+start	30	2031.1	28.0	1817.125	595	1000	0.5954045954045954
+end	33	739.0833333333334	28.0	1693.0	82	1000	0.08291708291708291
+center	32	1769.78125	28.0	1813.8208333333332	471	1000	0.47152847152847155

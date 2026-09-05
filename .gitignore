@@ -7,3 +7,5 @@ work/
 ._*
 Miniforge3-MacOSX-arm64.sh
 *.bak
+
+submission_package/

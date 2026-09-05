@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this analysis or code, please cite this software release and the associated manuscript."
+title: "Bacillales TMD codon positioning analysis"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Ming"
+version: "1.0.0"
+date-released: "2026-09-05"
+repository-code: "https://github.com/daming7977-byte/bacillales-tmd-codon-positioning"
+abstract: >
+  Reproducibility code and processed results for an independent Bacillales
+  analysis of the positional organization of low-adaptation synonymous codon
+  segments relative to transmembrane-domain boundaries. The repository includes
+  orthology inference, topology qualification, codon-adaptation calculations,
+  low-adaptation segment detection, TMD-relative assignment, synonymous-codon
+  permutation analysis, supplementary tables, and the Bacillales permutation-null
+  figure accompanying the associated manuscript.
+keywords:
+  - synonymous codon usage
+  - transmembrane domains
+  - membrane proteins
+  - Bacillales
+  - molecular evolution
+  - permutation test

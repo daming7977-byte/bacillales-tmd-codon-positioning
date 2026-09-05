@@ -22,7 +22,7 @@ species = [
     ("GCF_005671335.1", "Halalkalibacterium halodurans LB-1"),
 ]
 
-with (OUT / "Table_B1_bacillales_species.tsv").open(
+with (OUT / "Table_S7_bacillales_species.tsv").open(
     "w", newline=""
 ) as f:
     w = csv.writer(f, delimiter="\t")
@@ -39,49 +39,49 @@ copies = {
         "work/topology/merged/"
         "topology_qualified_families.tsv"
     ):
-        OUT / "Table_B2_topology_qualified_families.tsv",
+        OUT / "Table_S8_topology_qualified_families.tsv",
 
     Path(
         "work/topology/merged/"
         "topology_qualified_tmd_clusters.tsv"
     ):
-        OUT / "Table_B3_topology_qualified_tmd_clusters.tsv",
+        OUT / "Table_S9_topology_qualified_tmd_clusters.tsv",
 
     Path(
         "work/topology/merged/"
         "modal_tmd_primary_set_diagnostic.tsv"
     ):
-        OUT / "Table_B4_modal_tmd_primary_set.tsv",
+        OUT / "Table_S10_modal_tmd_primary_set.tsv",
 
     Path(
         "work/codon/frozen_thresholds/"
         "species_low_adaptation_thresholds.tsv"
     ):
-        OUT / "Table_B5_species_low_adaptation_thresholds.tsv",
+        OUT / "Table_S11_species_low_adaptation_thresholds.tsv",
 
     Path(
         "work/codon/segments/"
         "low_adaptation_segments.tsv"
     ):
-        OUT / "Table_B6_low_adaptation_segments.tsv",
+        OUT / "Table_S12_low_adaptation_segments.tsv",
 
     Path(
         "work/codon/primary_tmd_assignment/"
         "primary_homologous_tmd_unit_summary.tsv"
     ):
-        OUT / "Table_B7_primary_tmd_unit_summary.tsv",
+        OUT / "Table_S13_primary_tmd_unit_summary.tsv",
 
     Path(
         "work/codon/permutation/"
         "primary_synonymous_null_1000.tsv"
     ):
-        OUT / "Table_B8_synonymous_permutation_null.tsv",
+        OUT / "Table_S14_synonymous_permutation_null.tsv",
 
     Path(
         "work/final/"
         "bacillales_replication_final_summary.tsv"
     ):
-        OUT / "Table_B9_final_summary.tsv",
+        OUT / "Table_S15_final_summary.tsv",
 }
 
 for src, dst in copies.items():

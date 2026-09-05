@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 
 NULL_FILE = Path(
     "supplementary/bacillales/"
-    "Table_B8_synonymous_permutation_null.tsv"
+    "Table_S14_synonymous_permutation_null.tsv"
 )
 
 SUMMARY_FILE = Path(
     "supplementary/bacillales/"
-    "Table_B9_final_summary.tsv"
+    "Table_S15_final_summary.tsv"
 )
 
 OUTDIR = Path("figures/bacillales")

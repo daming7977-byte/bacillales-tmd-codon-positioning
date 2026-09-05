@@ -5,9 +5,10 @@ type: software
 authors:
   - family-names: "Li"
     given-names: "Ming"
-version: "1.0.0"
+version: "1.0.2"
 date-released: "2026-09-05"
 repository-code: "https://github.com/daming7977-byte/bacillales-tmd-codon-positioning"
+doi: "10.5281/zenodo.22345714"
 abstract: >
   Reproducibility code and processed results for an independent Bacillales
   analysis of the positional organization of low-adaptation synonymous codon
